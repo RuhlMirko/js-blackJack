@@ -84,3 +84,11 @@ body {
 .dice--player img {
   height: 4rem;
 }
+.enemy--dice {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+}
+.enemy--dice img {
+  height: 5rem;
+}
