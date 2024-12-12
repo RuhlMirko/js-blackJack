@@ -30,13 +30,10 @@ body {
 .btn {
   font-family: "Caveat";
   color: white;
-  background: none;
   border: none;
-  font-size: 1.8rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   cursor: pointer;
-  font-weight: 400;
-  transition: all 0.2s;
 
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -46,9 +43,8 @@ body {
   );
   backdrop-filter: blur(10px);
 
-  padding: 0.7rem 2.5rem;
+  padding: 0.7rem 1.45rem;
   border-radius: 0.2rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
 }
 .player--hub {
   background: rgb(0, 0, 0);
@@ -76,11 +72,15 @@ body {
 }
 .table h2 {
   position: absolute;
-  top: 15%;
-  left: 45%;
+  top: 15.2%;
+  left: 48.5%;
   font-size: 2rem;
 }
 .dice--player {
   display: flex;
   gap: 10px;
+  padding-bottom: 20px;
+}
+.dice--player img {
+  height: 4rem;
 }
