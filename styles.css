@@ -2,7 +2,7 @@
 
 body {
   font-family: "Amatic SC", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   height: 90vh;
   color: #ffffff;
   /*
@@ -79,4 +79,8 @@ body {
   top: 15%;
   left: 45%;
   font-size: 2rem;
+}
+.dice--player {
+  display: flex;
+  gap: 10px;
 }
