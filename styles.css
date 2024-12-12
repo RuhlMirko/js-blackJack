@@ -28,9 +28,7 @@ body {
   gap: 10px;
 }
 .btn {
-  top: 68%;
   font-family: "Caveat";
-  transform: translateX(-50%);
   color: white;
   background: none;
   border: none;
@@ -43,12 +41,22 @@ body {
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 0.658) 0%,
-    rgba(1, 23, 63, 0.384) 100%
+    rgba(41, 172, 24, 0.39) 0%,
+    rgba(3, 163, 56, 0.26) 100%
   );
   backdrop-filter: blur(10px);
 
   padding: 0.7rem 2.5rem;
   border-radius: 0.2rem;
   box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.player--hub {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.658) 0%,
+    rgba(1, 23, 63, 0.384) 100%
+  );
+  padding: 4rem 2rem;
+  border-radius: 0.3rem;
 }
