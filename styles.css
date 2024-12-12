@@ -23,11 +23,13 @@ body {
   display: none;
 }
 
+.bet--player {
+  display: flex;
+  gap: 10px;
+}
 .btn {
   top: 68%;
   font-family: "Caveat";
-  position: absolute;
-  left: 50%;
   transform: translateX(-50%);
   color: white;
   background: none;
