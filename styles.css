@@ -90,5 +90,13 @@ body {
   padding: 20px;
 }
 .enemy--dice img {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.658) 0%,
+    rgba(1, 23, 63, 0.384) 100%
+  );
+  padding: 20px;
+  border-radius: 2%;
   height: 5rem;
 }
