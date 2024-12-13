@@ -28,6 +28,7 @@ body {
   gap: 10px;
   justify-content: center;
 }
+
 .btn {
   font-family: "Caveat";
   color: white;
@@ -118,4 +119,16 @@ body {
 
 .hidden {
   display: none;
+}
+
+.call--out {
+  display: block;
+  margin: 0px auto 20px;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgb(48, 5, 5) 0%,
+    rgba(148, 19, 3, 0.384) 100%
+  );
 }
