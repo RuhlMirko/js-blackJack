@@ -103,3 +103,19 @@ body {
   border-radius: 2%;
   height: 5rem;
 }
+
+.enemy--1 {
+  position: relative;
+}
+
+.enemy--1 p {
+  position: absolute;
+  top: -45px;
+  left: 35%;
+  color: black;
+  font-size: 4rem;
+}
+
+.hidden {
+  display: none;
+}
