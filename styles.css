@@ -23,6 +23,14 @@ body {
   display: none;
 }
 
+select {
+  padding: 5px 20px;
+  border: solid 1px rgba(3, 58, 10, 0.37);
+  border-radius: 4px;
+  background-color: #18530657;
+  backdrop-filter: blur(10px);
+}
+
 .bet--player {
   display: flex;
   gap: 10px;
@@ -45,7 +53,27 @@ body {
   );
   backdrop-filter: blur(10px);
 
-  padding: 0.7rem 1.45rem;
+  padding: 0.2rem 1.62rem;
+  border-radius: 0.2rem;
+}
+
+.minus {
+  padding: 5px 0px;
+}
+
+.minus .btn {
+  font-family: "Caveat";
+  color: white;
+  border: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(48, 5, 5) 0%, rgb(148, 20, 3) 100%);
+  backdrop-filter: blur(10px);
+
+  padding: 0.2rem 1.62rem;
   border-radius: 0.2rem;
 }
 .player--hub {
@@ -62,8 +90,6 @@ body {
   display: flex;
   gap: 10px;
   position: relative;
-  /*  background: rgba(0, 0, 0, 0.61);
-  backdrop-filter: blur(10px);*/
   padding: 4rem;
 }
 .chip--bet {
@@ -121,14 +147,17 @@ body {
   display: none;
 }
 
-.call--out {
-  display: block;
+.player--actions {
+  display: flex;
   margin: 0px auto 20px;
+  justify-content: space-around;
+}
 
+.call--out {
   background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgb(48, 5, 5) 0%,
-    rgba(148, 19, 3, 0.384) 100%
-  );
+  background: linear-gradient(0deg, rgb(48, 5, 5) 0%, rgb(148, 20, 3) 100%);
+}
+.confirm {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(1, 112, 1) 0%, rgb(3, 168, 11) 100%);
 }
