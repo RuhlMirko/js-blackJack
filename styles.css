@@ -26,6 +26,7 @@ body {
 .bet--player {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 .btn {
   font-family: "Caveat";
@@ -62,22 +63,23 @@ body {
   position: relative;
   /*  background: rgba(0, 0, 0, 0.61);
   backdrop-filter: blur(10px);*/
-  padding: 5rem;
+  padding: 4rem;
 }
 .chip--bet {
   position: absolute;
   height: 7rem;
-  top: 10%;
+  top: 14%;
   left: 40%;
 }
 .table h2 {
   position: absolute;
-  top: 15.2%;
-  left: 48.5%;
+  top: 20.2%;
+  left: 48.2%;
   font-size: 2rem;
 }
 .dice--player {
   display: flex;
+  justify-content: center;
   gap: 10px;
   padding-bottom: 20px;
 }
@@ -86,6 +88,7 @@ body {
 }
 .enemy--dice {
   display: flex;
+  justify-content: center;
   gap: 10px;
   padding: 20px;
 }
