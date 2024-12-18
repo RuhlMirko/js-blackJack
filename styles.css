@@ -6,29 +6,14 @@ body {
   padding: 20px;
 }
 
-.enemy-dice {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: gray;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.582) 0%,
-    rgba(85, 10, 10, 0.603) 100%
-  );
-  padding: 20px;
-  border-radius: 5px;
-}
-
 .bet {
   padding: 10px;
 }
-
 .bet img {
   position: relative;
   left: 250px;
   padding-bottom: 20px;
 }
-
 .bet span {
   position: relative;
   left: 60px;
@@ -38,6 +23,22 @@ body {
   font-family: sans-serif;
 }
 
+.ui-bg {
+  background: gray;
+  background: linear-gradient(
+    hsla(0, 0%, 0%, 0.486) 0%,
+    rgba(90, 6, 6, 0.438) 100%
+  );
+
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.enemy-dice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .enemy-dice span {
   margin: 10px;
   padding: 40px;
@@ -45,4 +46,21 @@ body {
   font-size: 3rem;
   font-family: sans-serif;
   border-radius: 10px;
+}
+
+.player {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.player-dice {
+  display: flex;
+  flex-direction: column;
+}
+.player-dice button {
+  margin-top: 5px;
+  border: none;
+  border-radius: 2px;
 }
