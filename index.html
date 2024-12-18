@@ -8,85 +8,13 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-    <main>
-      <select name="players" id="players">
-        <option value="1">1 players</option>
-        <option value="2">2 players</option>
-        <option value="3">3 players</option>
-        <option value="4">4 players</option>
-      </select>
-
-      <div class="table">
-        <img src="res/chips.png" alt="" class="chip--bet" />
-        <h2>x10</h2>
+    <header>
+      <img src="res/chips.png" alt="" />
+      <div class="enemy-dice">
+        <span>3/5</span>
+        <span>3/5</span>
+        <span>3/5</span>
       </div>
-
-      <div class="enemy--dice">
-        <div class="enemy--1">
-          <img src="res/dice--blank.png" alt="" />
-          <p>5x</p>
-        </div>
-
-        <div class="enemy--2 hidden">
-          <img src="res/dice--blank.png" alt="" />
-          <p>5x</p>
-        </div>
-
-        <div class="enemy--3 hidden">
-          <img src="res/dice--blank.png" alt="" />
-          <p>5x</p>
-        </div>
-
-        <div class="enemy--4 hidden">
-          <img src="res/dice--blank.png" alt="" />
-          <p>5x</p>
-        </div>
-      </div>
-
-      <div class="player--hub">
-        <div class="player--actions">
-          <button class="btn call--out">Call out last bet</button>
-          <button class="btn confirm">Confirm Bet</button>
-        </div>
-
-        <div class="dice--player">
-          <img src="res/dice--6.png" alt="" />
-          <img src="res/dice--5.png" alt="" />
-          <img src="res/dice--4.png" alt="" />
-          <img src="res/dice--3.png" alt="" />
-          <img src="res/dice--2.png" alt="" />
-          <img src="res/dice--1.png" alt="" />
-        </div>
-
-        <div class="bet--player plus">
-          <button class="btn">+1</button>
-          <button class="btn">+1</button>
-          <button class="btn">+1</button>
-          <button class="btn">+1</button>
-          <button class="btn">+1</button>
-          <button class="btn">+1</button>
-        </div>
-
-        <div class="bet--player minus">
-          <button class="btn">-1</button>
-          <button class="btn">-1</button>
-          <button class="btn">-1</button>
-          <button class="btn">-1</button>
-          <button class="btn">-1</button>
-          <button class="btn">-1</button>
-        </div>
-      </div>
-
-      <footer>
-        <p style="color: rgba(124, 230, 207, 0.87)">
-          Visit my github
-          <a
-            style="color: aquamarine"
-            href="https://opengameart.org/content/playing-cards-vector-png"
-            >@RuhlMirko</a
-          >
-        </p>
-      </footer>
-    </main>
+    </header>
   </body>
 </html>
