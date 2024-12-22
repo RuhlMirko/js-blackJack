@@ -15,14 +15,13 @@ header {
 }
 .bet img {
   position: relative;
-  top: 20%;
-  left: 20%;
+  left: 10%;
   padding-bottom: 20px;
 }
 .bet span {
   position: absolute;
   top: 38%;
-  left: 57%;
+  left: 47%;
   color: white;
   font-size: 3rem;
   font-family: sans-serif;
@@ -30,12 +29,7 @@ header {
 
 .ui-bg {
   width: 100%;
-  background: gray;
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.486) 0%,
-    rgba(90, 6, 6, 0.438) 100%
-  );
-
+  background: #0000007c;
   padding: 20px;
   border-radius: 5px;
   backdrop-filter: blur(10px);
@@ -95,25 +89,31 @@ header {
   background-color: #194d2a;
 }
 .down:hover {
-  background: #880d0d;
+  background: #0000007c;
   background: linear-gradient(rgb(90, 6, 6) 0%, rgba(0, 0, 0, 0.486) 100%);
 }
 .down:active {
   background-color: #194d2a;
 }
 
-main div:first-child {
+.players-amount {
   display: flex;
-  justify-content: center;
-}
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 
-main div:first-child select {
-  padding: 10px;
+  color: white;
   font-size: 16px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.players-amount select {
+  padding: 10px 20px;
+  font-size: inherit;
+  font-family: inherit;
   background-color: #00000080;
-  color: white;
-  border-radius: 20px;
+  color: inherit;
+  border-radius: 10px;
   border: solid 1px #5c5c5c;
   text-align: center;
 }
