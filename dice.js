@@ -26,4 +26,7 @@ const enemies = [
   enemiesObj("e5", 5, getNewDices()),
 ];
 
-console.log(enemies);
+const mapedEnemiesDices = enemies.map(function (item) {
+  return [...item.dices];
+});
+console.log(mapedEnemiesDices);
