@@ -78,7 +78,7 @@ header {
   margin-top: 5px;
   border: none;
   border-radius: 3px;
-  transition: 0.2s;
+  transition: 1s ease-out;
   cursor: pointer;
   font-family: "Montserrat";
   letter-spacing: 2px;
@@ -105,7 +105,7 @@ header {
 }
 .down:hover {
   background: #0000007c;
-  background: linear-gradient(rgb(90, 6, 6) 0%, rgba(0, 0, 0, 0.486) 100%);
+  background: linear-gradient(rgb(90, 6, 6) 0%, rgba(0, 0, 0, 0.788) 100%);
 }
 .down:active {
   background-color: #194d2a;
@@ -155,12 +155,42 @@ footer {
   }
   .bet img {
     position: relative;
+    top: 20px;
+    left: 30px;
     padding-bottom: 20px;
   }
   .bet span {
-    position: relative;
+    position: absolute;
+    top: 73px;
+    left: 77px;
     color: white;
     font-size: 2rem;
     font-family: sans-serif;
+  }
+}
+@media (max-width: 900px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+  .player {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .player img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 2px;
+  }
+  .player button {
+    height: 60px;
+  }
+
+  header {
+    position: fixed;
+    top: 20%;
+    left: 2%;
   }
 }
