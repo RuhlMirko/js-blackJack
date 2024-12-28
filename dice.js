@@ -28,13 +28,14 @@ const mapedEnemiesDices = enemies.map(function (item) {
 document.querySelector(".e1").textContent = enemies[0].dice_amount;
 */
 
-for (let item in enemies) {
-  const currentNum = item + 1;
-  const currListDice = [...mapedEnemiesDices[0][0]];
-  const htmlString = `<img src="res/dice--${currListDice[currentNum]}.png" alt="" class="p1-d${currentNum}" />`;
-  console.log(currentNum, currListDice[1], htmlString);
-  document.querySelector(`.p1-d${currentNum}`).insertAdjacentHTML = htmlString;
+console.log(enemies[0].dices);
+let fullString = "";
+for (let i = 0; i < 5; i++) {
+  const currentNum = enemies[0].dices[i];
+
+  fullString += `<img src="res/dice--${currentNum}.png" alt="" class="p1-d0${i}" />\n`;
 }
+document.querySelector(`.current-hand`).innerHTML = fullString;
 
 const testArr = [
   [4, 5, 6],
