@@ -84,6 +84,17 @@ header {
   letter-spacing: 2px;
 }
 
+.current-hand {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  padding: 0px;
+  margin: 0px 20px;
+}
+.current-hand img {
+  width: 5%;
+}
+
 .up {
   background-color: #0d8836;
   padding: 5px 0px;

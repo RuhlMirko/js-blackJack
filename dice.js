@@ -11,11 +11,11 @@ function getNewDices() {
 }
 // Enemies object creation
 const enemies = [
-  enemiesObj("e1", 2, getNewDices()),
-  enemiesObj("e2", 5, getNewDices()),
-  enemiesObj("e3", 5, getNewDices()),
-  enemiesObj("e4", 5, getNewDices()),
-  enemiesObj("e5", 5, getNewDices()),
+  enemiesObj(1, 2, getNewDices()),
+  enemiesObj(2, 5, getNewDices()),
+  enemiesObj(3, 5, getNewDices()),
+  enemiesObj(4, 5, getNewDices()),
+  enemiesObj(5, 5, getNewDices()),
 ];
 
 const mapedEnemiesDices = enemies.map(function (item) {
