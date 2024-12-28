@@ -21,9 +21,23 @@ const enemies = [
 const mapedEnemiesDices = enemies.map(function (item) {
   return [...item.dices];
 });
-console.log(mapedEnemiesDices);
+//console.log(mapedEnemiesDices);
 
 // DOM manipulation
 /*
 document.querySelector(".e1").textContent = enemies[0].dice_amount;
 */
+
+for (let item in enemies) {
+  const currentNum = item + 1;
+  const currListDice = [...mapedEnemiesDices[0][0]];
+  const htmlString = `<img src="res/dice--${currListDice[currentNum]}.png" alt="" class="p1-d${currentNum}" />`;
+  console.log(currentNum, currListDice[1], htmlString);
+  document.querySelector(`.p1-d${currentNum}`).insertAdjacentHTML = htmlString;
+}
+
+const testArr = [
+  [4, 5, 6],
+  [7, 8, 9],
+];
+//console.log(testArr[0][0]);
