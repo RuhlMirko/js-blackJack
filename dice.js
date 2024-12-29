@@ -11,7 +11,7 @@ function getNewDices() {
 }
 // Enemies object creation
 const enemies = [
-  enemiesObj(1, 2, getNewDices()),
+  enemiesObj(1, 5, getNewDices()),
   enemiesObj(2, 5, getNewDices()),
   enemiesObj(3, 5, getNewDices()),
   enemiesObj(4, 5, getNewDices()),
@@ -31,9 +31,8 @@ console.log(
 );
 
 /* DOM manipulation
-document.querySelector(".e1").textContent = enemies[0].dice_amount;
 
-
+document.querySelector(".p1").textContent = enemies[0].dice_amount;
 
 // Sets html to reflect the player dices
 let fullString = "";
