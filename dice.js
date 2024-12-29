@@ -31,7 +31,6 @@ console.log(
 );
 
 /* DOM manipulation
-
 document.querySelector(".p1").textContent = enemies[0].dice_amount;
 
 // Sets html to reflect the player dices

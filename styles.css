@@ -129,8 +129,7 @@ header {
 
 .players-amount {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
   gap: 10px;
 
   color: white;
@@ -139,7 +138,7 @@ header {
 }
 
 .players-amount select {
-  padding: 10px 20px;
+  padding: 5px 20px;
   font-size: inherit;
   font-family: inherit;
   background-color: #00000080;
@@ -147,6 +146,10 @@ header {
   border-radius: 10px;
   border: solid 1px #5c5c5c;
   text-align: center;
+}
+
+.players-amount span {
+  margin-top: 5px;
 }
 
 .disable-up,
