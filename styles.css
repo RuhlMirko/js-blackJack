@@ -163,6 +163,13 @@ header {
   cursor: not-allowed;
 }
 
+.outside-span {
+  display: table;
+  margin: 2px auto;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: aquamarine;
