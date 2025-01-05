@@ -17,27 +17,8 @@ body {
   flex-direction: column;
 }
 
-header {
-  position: relative;
-}
 .bet {
   padding: 10px;
-}
-.bet img {
-  height: 120px;
-  position: fixed;
-  top: 300px;
-  left: 170px;
-  padding-bottom: 20px;
-}
-.bet span {
-  height: 200px;
-  position: fixed;
-  top: 342px;
-  left: 200px;
-  color: white;
-  font-size: 2rem;
-  font-family: sans-serif;
 }
 
 .ui-bg {
@@ -170,6 +151,51 @@ header {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#player {
+  display: flex;
+}
+
+#player .bet {
+  position: relative;
+}
+
+#player img {
+  width: 60%;
+
+  position: relative;
+  top: 20px;
+  left: 30px;
+  padding-bottom: 20px;
+}
+#player span {
+  position: absolute;
+  left: 35%;
+  top: 40%;
+  color: #faebd7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+}
+
+/*
+
+.bet img {
+  height: 120px;
+  position: fixed;
+  top: 300px;
+  left: 170px;
+  padding-bottom: 20px;
+}
+.bet span {
+  height: 200px;
+  position: fixed;
+  top: 342px;
+  left: 200px;
+  color: white;
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+*/
+
 footer {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: aquamarine;
@@ -184,14 +210,6 @@ footer {
     top: 20px;
     left: 30px;
     padding-bottom: 20px;
-  }
-  .bet span {
-    position: absolute;
-    top: 73px;
-    left: 77px;
-    color: white;
-    font-size: 2rem;
-    font-family: sans-serif;
   }
 }
 @media (max-width: 900px) {
