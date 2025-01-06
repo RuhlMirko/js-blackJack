@@ -30,6 +30,9 @@ console.log(
   p5: ${allDices[4]}`
 );
 
+function DoSomething() {
+  console.log("Click");
+}
 /* DOM manipulation
 document.querySelector(".p1").textContent = players[0].dice_amount;
 
