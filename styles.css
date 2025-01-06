@@ -176,9 +176,10 @@ body {
 }
 .bet span {
   position: absolute;
+  text-align: left;
   width: 60%;
-  left: 35%;
-  top: 33%;
+  top: 35%;
+  left: 40%;
 }
 #player span {
   color: #faebd7;
