@@ -33,7 +33,7 @@ console.log(
 function DoSomething() {
   console.log("Click");
 }
-/* DOM manipulation
+// DOM manipulation
 document.querySelector(".p1").textContent = players[0].dice_amount;
 
 // Sets html to reflect the player dices
@@ -44,4 +44,5 @@ for (let i = 0; i < 5; i++) {
   fullString += `<img src="res/dice--${currentNum}.png" alt="" class="p1-d0${i}" />\n`;
 }
 document.querySelector(`.current-hand`).innerHTML = fullString;
-*/
+
+//
